@@ -72,7 +72,7 @@ def split_unique_paragraph_id(df: pd.DataFrame) -> pd.DataFrame | None:
 
 def fix_p_df_and_save(
     save_path: str,
-    dat_files_path: str ="/data/home/shared/onestop/processed/all_dat_files_merged.tsv",
+    dat_files_path: str ="/src/data/all_dat_files_merged.tsv",
     corrections_path: str = "src/Data_Tools/consecutive_same_values_unique_2.csv"
     ):
     all_dat_files = pd.read_csv(dat_files_path, sep="\t").query("article_id > 0")
@@ -99,7 +99,7 @@ def fix_p_df_and_save(
 def validate_fixed_p(
     fixed_p_df: pd.DataFrame,
     et_data_path: str = (
-        "/data/home/shared/onestop/processed/ia_data_enriched_360_05052024.csv"
+        "/src/data/ia_data_enriched_360_05052024.csv"
     )
     ):
     et_df = pd.read_csv(et_data_path)
@@ -114,7 +114,7 @@ def validate_fixed_p(
     
 def get_p_from_et(
     et_data_path: str = (
-        "/data/home/shared/onestop/processed/ia_data_enriched_360_05052024.csv"
+        "/src/data/ia_data_enriched_360_05052024.csv"
     )):
     et_df = pd.read_csv(et_data_path)
     p_from_et = (et_df[["unique_paragraph_id", "IA_LABEL", "IA_ID", "has_preview", "list"]]
@@ -205,8 +205,8 @@ def _fix_paragraph(paragraph: str, word: str, ia_id: int) -> str:
     return new_paragraph
 
 if __name__ == "__main__":
-    # fix_p_df_and_save(save_path="/data/home/shared/onestop/processed/fixed_dat_files_20240624.csv")
-    # fixed_dat_files = pd.read_csv("/data/home/shared/onestop/processed/fixed_dat_files_20240624.csv")
+    # fix_p_df_and_save(save_path="/src/data/fixed_dat_files_20240624.csv")
+    # fixed_dat_files = pd.read_csv("/src/data/fixed_dat_files_20240624.csv")
     # validate_fixed_p(fixed_dat_files)
     p_df = get_p_from_et()
-    p_df.to_csv("/data/home/shared/onestop/processed/p_from_et_20240624.csv")
+    p_df.to_csv("/src/data/p_from_et_20240624.csv")

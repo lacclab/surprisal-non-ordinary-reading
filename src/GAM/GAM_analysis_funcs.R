@@ -1,3 +1,10 @@
+# -----------------------------------------------------------------------------
+# This script provides functions for fitting Generalized Additive Models (GAMs) 
+# to eye-tracking data, including cross-validation, DLL analysis, bootstrapping,
+# and permutation tests. It supports smooth fitting and density calculations 
+# based on various reading conditions and surprisal configurations. Key outputs 
+# include linear and nonlinear smooths, density data, and model comparison statistics.
+# -----------------------------------------------------------------------------
 
 shhh <- suppressPackageStartupMessages # It's a library, so shhh!
 shhh(library( mgcv ))

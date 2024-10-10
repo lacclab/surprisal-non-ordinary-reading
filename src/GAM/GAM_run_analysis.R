@@ -1,3 +1,11 @@
+# -----------------------------------------------------------------------------
+# This is the main script for fitting Generalized Additive Models (GAMs) to the 
+# eye-tracking data and obtaining the analysis results. The script imports necessary 
+# dependencies and configuration files, iterates over multiple analysis types and 
+# surprisal models, and performs density calculations, linear and non-linear model 
+# comparisons, as well as GAM smooth fitting and plotting. Results are saved based 
+# on the defined configurations and conditions.
+# -----------------------------------------------------------------------------
 
 shhh <- suppressPackageStartupMessages # It's a library, so shhh!
 shhh(library( mgcv ))
@@ -34,6 +42,13 @@ source(here("src", "GAM", "GAM_smooths_main.R"))
 # Configs
 set.seed(12)
 
+# ----------------- Configs -----------------
+run_dll = TRUE
+# run_dll = FALSE
+run_smooths = TRUE
+# run_smooths = FALSE
+
+# Flags for running only specific parts
 # only_plot = TRUE
 only_plot = FALSE
 # only_density = TRUE
@@ -43,16 +58,12 @@ only_dll_tests = FALSE
 # plot_and_density = TRUE
 plot_and_density = FALSE
 
-run_dll = TRUE
-# run_dll = FALSE
-run_smooths = TRUE
-# run_smooths = FALSE
-
+# TODO: choose the analysis type and model name
 analysis_type_list = c("Consecutive_Repeated_reading", "Critical_Span", "Basic_Analysis",
                     "Different_Surprisal_Context", "Different_Surprisal_Context_zoom_in")
 model_name = "EleutherAI-pythia-70m"
 
-## Run
+# ----------------- Run ---------------------
 for (analysis_type in analysis_type_list) {
     config = get_configs(analysis_type, model_name)
     # Unpack the configuration into the current environment
@@ -98,7 +109,7 @@ for (analysis_type in analysis_type_list) {
                 run_dll_analysis(eye_df)
             }
 
-            ## Shape of surprisal / RT relationship
+            ## Fit GAM and plot smooths
             if (run_smooths == TRUE){
                 run_smooths_analysis(eye_df)
             }

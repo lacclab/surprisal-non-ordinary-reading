@@ -1,4 +1,11 @@
-# install.packages("tidyr")
+# -----------------------------------------------------------------------------
+# This script provides preprocessing functions for eye-tracking data analysis. 
+# Key functionalities include data filtering, normalization, etc. It supports 
+# cleaning the data by removing practice rows, filtering by reading conditions, 
+# and applying surprisal thresholds. Final outputs are ready for use in further 
+# modeling and statistical analysis.
+# -----------------------------------------------------------------------------
+
 library(tidyr)
 
 add_prev_surp <- function(df) {

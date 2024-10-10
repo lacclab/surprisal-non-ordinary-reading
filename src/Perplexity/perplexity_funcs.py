@@ -13,7 +13,6 @@ from transformers import (
     GPTNeoXTokenizerFast,
 )
 
-
 def sentence_level_ppl(
     model: Union[AutoModelForCausalLM, GPTNeoXForCausalLM, GPTNeoForCausalLM],
     tok: Union[AutoTokenizer, GPTNeoXTokenizerFast, GPT2TokenizerFast],

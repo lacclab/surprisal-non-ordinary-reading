@@ -27,7 +27,7 @@ library(gratia)
 ## Import files
 source(here("src", "GAM", "preprocess_df.R"))
 
-basic_file_path = "/data/home/shared/onestop/processed/et_20240505_with_all_surp20240624.csv"
+basic_file_path = "/src/data/et_20240505_with_all_surp20240624.csv"
 surp_column = "EleutherAI-gpt-j-6B-Surprisal-Context-P"
 original_eye_df <- get_eye_data(basic_file_path, surp_column=surp_column)
 RT_col = "FirstPassGD"

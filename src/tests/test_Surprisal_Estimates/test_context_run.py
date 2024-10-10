@@ -7,7 +7,7 @@ class TestContextRun(unittest.TestCase):
     def setUp(self):
         # path params
         self.et_data_path = (
-            "/data/home/shared/onestop/processed/ia_data_enriched_360_05052024.csv"
+            "/src/data/ia_data_enriched_360_05052024.csv"
         )
         self.debug_mode = True
         

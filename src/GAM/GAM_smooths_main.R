@@ -1,3 +1,11 @@
+# -----------------------------------------------------------------------------
+# run_smooths_analysis
+# This function fits and visualizes Generalized Additive Models (GAMs) for a given 
+# eye-tracking dataset. It handles the fitting of both linear and nonlinear smooths 
+# using bootstrap methods, saves the results as CSV files, and generates plots to 
+# visualize the relationship between surprisal and reading times (RT). The function 
+# supports multiple configurations for plotting, density calculation, and smooth fitting.
+# -----------------------------------------------------------------------------
 
 run_smooths_analysis <- function(
     eye_df

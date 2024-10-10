@@ -1,3 +1,10 @@
+# -----------------------------------------------------------------------------
+# run_dll_analysis
+# This function performs delta log-likelihood (DLL) analysis on the eye-tracking dataset
+# using different model configurations. It supports fitting models with cross-validation 
+# (CV) and calculating DLL statistics. The results are saved as CSV files and can be used 
+# for model comparison through permutation tests.
+# -----------------------------------------------------------------------------
 
 run_dll_analysis <- function(
     eye_df

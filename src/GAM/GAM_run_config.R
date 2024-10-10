@@ -1,17 +1,31 @@
+# ----------------------------------------------------------------------
+# This R script defines functions for configuring and executing different analysis types 
+# on eye-tracking data with various surprisal models. The script includes configurations 
+# for baseline, linear, nonlinear, and context-specific models, with options to modify 
+# conditions like rereading behavior and critical span inclusion. Results are saved 
+# based on the chosen configuration and model type, and the script can handle different 
+# input file paths and context-specific data columns.
+# ----------------------------------------------------------------------
 
-basic_file_path = "/data/home/shared/onestop/processed/et_20240505_with_all_surp20240624.csv"
-large_models_cotext_path = "/data/home/shared/onestop/processed/et_20240505_large_models_context_cols_20240625.csv"
-large_models_part_2_path = "/data/home/shared/onestop/processed/et_20240505_large_models_part_2_context_cols_20240625.csv"
-large_models_part_3_path = "/data/home/shared/onestop/processed/et_20240505_large_models_part_3_context_cols_20240625.csv"
-pythia70m_article_path = "/data/home/shared/onestop/processed/et_20240505_EleutherAI-pythia-70m_article.csv"
-gemma2_9b_article_path = "/data/home/shared/onestop/processed/et_20240505_gemma-2-9b_article.csv"
+# ------------------------------ Data paths ----------------------------
+# TODO: Put your data files here
+basic_file_path = "/src/data/et_20240505_with_all_surp20240624.csv"
+large_models_cotext_path = "/src/data/et_20240505_large_models_context_cols_20240625.csv"
+large_models_part_2_path = "/src/data/et_20240505_large_models_part_2_context_cols_20240625.csv"
+large_models_part_3_path = "/src/data/et_20240505_large_models_part_3_context_cols_20240625.csv"
+pythia70m_article_path = "/src/data/et_20240505_EleutherAI-pythia-70m_article.csv"
+gemma2_9b_article_path = "/src/data/et_20240505_gemma-2-9b_article.csv"
 
+# ------------------------------ Results directory ---------------------
+# This defined the preprocessing type (which filter of RT to use) and the results directory
 result_dir = "results 0<RT<3000 firstpassNA"
 
+# ------------------------------ Debugging ------------------------------
+# Set to TRUE to use a smaller data file for debugging
 debug_on_mini = FALSE
 debug_path = here("src", "GAM", "tests", "generated_data.csv")
 
-
+# ------------------------------ Functions ------------------------------
 get_file_name <- function(path) {
     print(sprintf("!! data path: %s", path))
     file_name <- basename(path)
