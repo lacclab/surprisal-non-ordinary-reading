@@ -11,7 +11,7 @@
 
 ### Main Analysis Steps
 
-1. Procduce surprisals using `src/Surprisal_Estimates/context_run.py`
+1. Produce surprisals using `src/Surprisal_Estimates/context_run.py`
 2. Merge them into a single "all surprisals" CSV
 3. Put the path of the merged CSV in `GAM_run_config.R` (set `basic_file_path`)
 4. For the following steps (5-8) - Choose the analysis type and model name
