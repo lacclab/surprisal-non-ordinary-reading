@@ -1,3 +1,5 @@
+# Conduct permutation tests for comparing DLLs (Reproduce Section 6.2 p vals)
+
 # -----------------------------------------------------------------------------
 # This script conducts context-based DLL (Delta Log-Likelihood) comparisons for 
 # various models using permutation tests. It loads DLL data, filters it based 
@@ -22,7 +24,7 @@ shhh(library(plotrix))
 shhh(library(ggrepel))
 shhh(library(mgcv))
 library(tidyr)
-library(jmuOutlier) # For paired permutation tests
+library(jmuOutlier)
 library(purrr)
 library(CIPerm)
 theme_set(theme_bw())
@@ -74,12 +76,10 @@ get_p_df <- function(
     dll_2 = get_dll_df_for_permu_test(raw_dll_2, x_condition_val, y_condition_val, linear=linear)
     print_n_rows(dll_1, dll_2, x_condition_val, y_condition_val)
     # conduct test
-    # p_val = perm.test(dll_1, dll_2, num.sim = 1000, exact=TRUE)$p.value
     n_sim = 1000
     dset_result = dset(dll_1, dll_2, nmc=n_sim)
     CIPerm_p_val = pval(dset_result, tail = c("Two"))
     if (is.na(CIPerm_p_val) || CIPerm_p_val == 0){
-        # p_val = perm.test(dll_1, dll_2, all.perms=TRUE, exact=TRUE)$p.value
         n_sim = 20000
         dset_result = dset(dll_1, dll_2, nmc=n_sim)
         CIPerm_p_val = pval(dset_result, tail = c("Two"))
@@ -124,10 +124,6 @@ run_dll_tests <- function(
     context_type_2_vals = compare_plan$context_type_2
     zoom_in_1_vals = compare_plan$zoom_in_1_vals
     zoom_in_2_vals = compare_plan$zoom_in_2_vals
-    # x_condition_vals = c("Gathering")
-    # y_condition_vals = c(1)
-    # context_name_1_vals = c("p")
-    # context_name_2_vals = c("p-p")
     for (i in seq_along(x_condition_vals)) {
         x_condition_val <- x_condition_vals[i]
         y_condition_val <- y_condition_vals[i]

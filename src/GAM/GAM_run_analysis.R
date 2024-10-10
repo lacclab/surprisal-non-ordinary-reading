@@ -7,7 +7,7 @@
 # on the defined configurations and conditions.
 # -----------------------------------------------------------------------------
 
-shhh <- suppressPackageStartupMessages # It's a library, so shhh!
+shhh <- suppressPackageStartupMessages
 shhh(library( mgcv ))
 shhh(library(dplyr))
 shhh(library(ggplot2))

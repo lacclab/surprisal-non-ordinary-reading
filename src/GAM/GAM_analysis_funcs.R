@@ -6,7 +6,7 @@
 # include linear and nonlinear smooths, density data, and model comparison statistics.
 # -----------------------------------------------------------------------------
 
-shhh <- suppressPackageStartupMessages # It's a library, so shhh!
+shhh <- suppressPackageStartupMessages
 shhh(library( mgcv ))
 shhh(library(dplyr))
 shhh(library(ggplot2))
@@ -22,7 +22,7 @@ shhh(library(plotrix))
 shhh(library(ggrepel))
 shhh(library(mgcv))
 library(tidyr)
-library(jmuOutlier) # For paired permutation tests
+library(jmuOutlier)
 library(purrr)
 library(CIPerm)
 
@@ -318,10 +318,6 @@ create_dll_results_df <- function(
     dll_raw_df, model_name_val, x_condition_val, y_condition_val
     ) {
     dll_vec = get_dll_df_for_permu_test(dll_raw_df, x_condition_val, y_condition_val, model_name=model_name_val)
-    # ttest_p_val = perm.test(dll_vec, num.sim = 1)$p.value
-    # perm_test = perm.test(dll_vec)
-    # new_p_val = perm_test$p.value
-    # n_sim <- as.numeric(str_extract(perm_test[2], "\\d+"))
     n_sim = 1000
     zero_vec = rep(0, length(dll_vec))
     dset_result = dset(dll_vec, zero_vec, nmc=n_sim)
@@ -343,14 +339,12 @@ create_dll_results_df <- function(
             norm_lower = norm_lower,
             w_norm_CI = w_norm_CI,
             w_new_CI = w_new_CI,
-            # ttest_pval = ttest_p_val,
             x_condition_name = x_condition_val,
             y_condition_name = y_condition_val,
             linear = model_name_val,
             new_p_val = new_p_val,
             n_sim = n_sim
         ),
-        # c("m", "upper", "lower", "ttest_pval", x_condition_name, y_condition_name, "linear", "new_p_val", "n_sim")
         c("m", "upper", "lower", "norm_upper", "norm_lower", "w_norm_CI", "w_new_CI", x_condition_name, y_condition_name, "linear", "new_p_val", "n_sim")
     )
     return(dll_results_df)
