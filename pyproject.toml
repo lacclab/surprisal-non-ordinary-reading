@@ -6,9 +6,8 @@ build-backend = "hatchling.build"
 name = "surprisal-non-ordinary-reading"
 version = "0.1.0"
 authors = [
-  {
-  name="Keren Gruteke Klein", email="gkeren - at - campus.technion.ac.il",
-  name="Yoav Meiri", email="meiri.yoav - at - campus.technion.ac.il"},
+  {name="Keren Gruteke Klein", email="gkeren - at - campus.technion.ac.il"},
+  {name="Yoav Meiri", email="meiri.yoav - at - campus.technion.ac.il"},
 ]
 
 readme = "README.md"
