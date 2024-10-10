@@ -1,0 +1,5 @@
+"","has_preview_condition","reread_condition","linear","p_val"
+"1","Gathering",0,"nonlinear",0
+"2","Gathering",1,"nonlinear",0.001
+"3","Hunting",0,"nonlinear",0
+"4","Hunting",1,"nonlinear",0.096

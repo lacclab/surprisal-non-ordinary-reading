@@ -1,0 +1,40 @@
+Simple Example without the full pipeline of code
+
+Part 1 - Fit model and calc Logliks
+src/GAM/tests/code_for_kids/step1_run_model.R
+
+RT_col, surp_cul, eye_df
+Fit GAM model using CV
+--> get preds, logliks
+Output: dll_raw_df
+
+
+Part 2 - Calc DLL
+src/GAM/tests/code_for_kids/step2_calc_dll.R
+
+Input: dll_raw_df
+
+--> comparison between baseline and target logliks --> dll --> mean, upper, lower for CI
+Output: linear_comp_df
+
+
+Output 2: p_vals_df -> whether the mean(dll) >0
+
+Part 3 - Plot DLL
+src/GAM/tests/code_for_kids/step3_plot_dll.R
+
+Input: 
+	• All_dlls
+	• save_to_path
+	• Conditions…
+
+Surp	Y	Linear	X_condition_name	Y_condition_name			
+			Has_preview_condition	Reread_condition
+1	4	Linear	Gathering	0			
+1	5	Non-linear	Gathering	0			
+
+Context1	Context2	Context3	.
+			X_condition_1 & y_condtion_1
+			X_condition_2 & y_condtion_1
+			X_condition_1 & y_condtion_2
+			X_condition_2 & y_condtion_2

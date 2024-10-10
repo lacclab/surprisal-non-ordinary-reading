@@ -1,0 +1,17 @@
+,surp_col,name,reread,context_type,has_preview_condition,article_level
+0,google-gemma-2-9b-Surprisal-Context-pastP-P,pastP-P,both,standard,Gathering,True
+1,google-gemma-2-9b-Surprisal-Context-pastQP-Q-P,pastQP-Q-P,0,regime,Hunting,True
+2,google-gemma-2-9b-Surprisal-Context-Article-pastP-P,Article-pastP-P,1,regime,Gathering,True
+3,google-gemma-2-9b-Surprisal-Context-ArticleQfrP-pastQP-Q-P,ArticleQfrP-pastQP-Q-P,1,regime,Hunting,True
+4,google-gemma-2-9b-Surprisal-Context-instFirstReadA-pastP-P,instFirstReadA-pastP-P,both,prompt_regime,Gathering,True
+5,google-gemma-2-9b-Surprisal-Context-instFirstReadA-pastQP-Q-P,instFirstReadA-pastQP-Q-P,0,prompt_regime,Hunting,True
+6,google-gemma-2-9b-Surprisal-Context-instFirstReadA-Article-instReReadA-pastP-P,instFirstReadA-Article-instReReadA-pastP-P,1,prompt_regime,Gathering,True
+7,google-gemma-2-9b-Surprisal-Context-instFirstReadA-ArticleQfrP-instReReadA-pastQP-Q-P,instFirstReadA-ArticleQfrP-instReReadA-pastQP-Q-P,1,prompt_regime,Hunting,True
+8,google-gemma-2-9b-Surprisal-Context-fillPastP-P,fillPastP-P,0,dots_filler,Gathering,True
+9,google-gemma-2-9b-Surprisal-Context-fillPastQP-fillerQ-P,fillPastQP-fillQ-P,0,dots_filler,Hunting,True
+10,google-gemma-2-9b-Surprisal-Context-fillArticle-fillPastP-P,fillArticle-fillPastP-P,1,dots_filler,Gathering,True
+11,google-gemma-2-9b-Surprisal-Context-fillArticleQfrP-fillPastQP-fillerQ-P,fillArticleQfrP-fillPastQP-fillQ-P,1,dots_filler,Hunting,True
+12,google-gemma-2-9b-Surprisal-Context-textFillPastP-P,textFillPastP-P,0,text_filler,Gathering,True
+13,google-gemma-2-9b-Surprisal-Context-textFillPastQP-textFillQ-P,textFillPastQP-textFillQ-P,0,text_filler,Hunting,True
+14,google-gemma-2-9b-Surprisal-Context-textFillArticle-textFillPastP-P,textFillArticle-textFillPastP-P,1,text_filler,Gathering,True
+15,google-gemma-2-9b-Surprisal-Context-textFillArticleQfrP-textFillPastQP-textFillQ-P,textFillArticleQfrP-textFillPastQP-textFillQ-P,1,text_filler,Hunting,True

@@ -1,0 +1,5 @@
+"","critical_span_condition","reread_condition","linear","p_val"
+"1",0,0,"nonlinear",0.053
+"2",0,1,"nonlinear",0.77
+"3",1,0,"nonlinear",0.083
+"4",1,1,"nonlinear",0.379

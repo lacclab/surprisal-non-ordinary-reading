@@ -1,0 +1,17 @@
+﻿x_condition_vals,y_condition_vals,context_name_1_vals,context_type_1,context_name_2_vals,context_type_2,zoom_in_1_vals,zoom_in_2_vals
+Hunting,0,P,standard_context,Q-P,regime_comtext,0,0
+Hunting,0,P,standard_context,fillerQ-P,dots_control_context,0,0
+Hunting,0,P,standard_context,textFillQ-P,text_control_context,0,0
+Gathering,1,P,standard_context,P-P,regime_comtext,0,1
+Gathering,1,P,standard_context,fillerP-P,dots_control_context,0,0
+Gathering,1,P,standard_context,textFillP-P,text_control_context,0,0
+Hunting,1,P,standard_context,Qfr-P-Q-P,regime_comtext,0,1
+Hunting,1,P,standard_context,fillerQfr-fillerP-fillerQ-P,dots_control_context,0,0
+Hunting,1,P,standard_context,textFillQfr-textFillP-textFillQ-P,text_control_context,0,0
+Gathering,0,P,standard_context,instFirstReadP-P,prompt_regime_comtext,0,0
+Hunting,0,P,standard_context,instFirstReadP-Q-P,prompt_regime_comtext,0,0
+Gathering,1,P,standard_context,instFirstReadP-P-instReReadP-P,prompt_regime_comtext,0,1
+Hunting,1,P,standard_context,instFirstReadP-Qfr-P-instReReadP-Q-P,prompt_regime_comtext,0,1
+Hunting,0,Q-P,regime_comtext,instFirstReadP-Q-P,prompt_regime_comtext,0,0
+Gathering,1,P-P,regime_comtext,instFirstReadP-P-instReReadP-P,prompt_regime_comtext,0,1
+Hunting,1,Qfr-P-Q-P,regime_comtext,instFirstReadP-Qfr-P-instReReadP-Q-P,prompt_regime_comtext,0,1

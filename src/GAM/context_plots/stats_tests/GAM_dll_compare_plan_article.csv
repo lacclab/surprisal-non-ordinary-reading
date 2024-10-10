@@ -1,0 +1,17 @@
+﻿x_condition_vals,y_condition_vals,context_name_1_vals,context_type_1,context_name_2_vals,context_type_2,zoom_in_1_vals,zoom_in_2_vals
+Hunting,0,pastP-P,standard_context,pastQP-Q-P,regime_comtext,0,0
+Hunting,0,pastP-P,standard_context,fillPastQP-fillerQ-P,dots_control_context,0,0
+Hunting,0,pastP-P,standard_context,textFillPastQP-textFillQ-P,text_control_context,0,0
+Gathering,1,pastP-P,standard_context,Article-pastP-P,regime_comtext,0,1
+Gathering,1,pastP-P,standard_context,fillArticle-fillPastP-P,dots_control_context,0,0
+Gathering,1,pastP-P,standard_context,textFillArticle-textFillPastP-P,text_control_context,0,0
+Hunting,1,pastP-P,standard_context,ArticleQfrP-pastQP-Q-P,regime_comtext,0,1
+Hunting,1,pastP-P,standard_context,fillArticleQfrP-fillPastQP-fillerQ-P,dots_control_context,0,0
+Hunting,1,pastP-P,standard_context,textFillArticleQfrP-textFillPastQP-textFillQ-P,text_control_context,0,0
+Gathering,0,pastP-P,standard_context,instFirstReadA-pastP-P,prompt_regime_comtext,0,0
+Hunting,0,pastP-P,standard_context,instFirstReadA-pastQP-Q-P,prompt_regime_comtext,0,0
+Gathering,1,pastP-P,standard_context,instFirstReadA-Article-instReReadA-pastP-P,prompt_regime_comtext,0,1
+Hunting,1,pastP-P,standard_context,instFirstReadA-ArticleQfrP-instReReadA-pastQP-Q-P,prompt_regime_comtext,0,1
+Hunting,0,pastQP-Q-P,regime_comtext,instFirstReadA-pastQP-Q-P,prompt_regime_comtext,0,0
+Gathering,1,Article-pastP-P,regime_comtext,instFirstReadA-Article-instReReadA-pastP-P,prompt_regime_comtext,0,1
+Hunting,1,ArticleQfrP-pastQP-Q-P,regime_comtext,instFirstReadA-ArticleQfrP-instReReadA-pastQP-Q-P,prompt_regime_comtext,0,1

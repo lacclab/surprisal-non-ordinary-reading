@@ -1,0 +1,121 @@
+"","X","has_preview_condition","reread_condition","linear","p_val","surp_column","model_id","model_family","model_size","model_size_milions","model_name_with_size","ppl"
+"1",1,"Gathering",0,"nonlinear",0.003,"EleutherAI-gpt-j-6B-Surprisal-Context-P","EleutherAI-gpt-j-6B","GPT-J","6B",6000,"6B GPT-J",14.7717084884644
+"2",2,"Gathering",1,"nonlinear",0.253,"EleutherAI-gpt-j-6B-Surprisal-Context-P","EleutherAI-gpt-j-6B","GPT-J","6B",6000,"6B GPT-J",14.7717084884644
+"3",3,"Hunting",0,"nonlinear",0,"EleutherAI-gpt-j-6B-Surprisal-Context-P","EleutherAI-gpt-j-6B","GPT-J","6B",6000,"6B GPT-J",14.7717084884644
+"4",4,"Hunting",1,"nonlinear",0.16,"EleutherAI-gpt-j-6B-Surprisal-Context-P","EleutherAI-gpt-j-6B","GPT-J","6B",6000,"6B GPT-J",14.7717084884644
+"5",1,"Gathering",0,"nonlinear",0.024,"EleutherAI-gpt-neo-1.3B-Surprisal-Context-P","EleutherAI-gpt-neo-1.3B","GPT-Neo","1.3B",1300,"1.3B GPT-Neo",19.5767230987549
+"6",2,"Gathering",1,"nonlinear",0.703,"EleutherAI-gpt-neo-1.3B-Surprisal-Context-P","EleutherAI-gpt-neo-1.3B","GPT-Neo","1.3B",1300,"1.3B GPT-Neo",19.5767230987549
+"7",3,"Hunting",0,"nonlinear",0.021,"EleutherAI-gpt-neo-1.3B-Surprisal-Context-P","EleutherAI-gpt-neo-1.3B","GPT-Neo","1.3B",1300,"1.3B GPT-Neo",19.5767230987549
+"8",4,"Hunting",1,"nonlinear",0.28,"EleutherAI-gpt-neo-1.3B-Surprisal-Context-P","EleutherAI-gpt-neo-1.3B","GPT-Neo","1.3B",1300,"1.3B GPT-Neo",19.5767230987549
+"9",1,"Gathering",0,"nonlinear",0.19,"EleutherAI-gpt-neo-125M-Surprisal-Context-P","EleutherAI-gpt-neo-125M","GPT-Neo","125M",125,"125M GPT-Neo",33.2034187316895
+"10",2,"Gathering",1,"nonlinear",0.576,"EleutherAI-gpt-neo-125M-Surprisal-Context-P","EleutherAI-gpt-neo-125M","GPT-Neo","125M",125,"125M GPT-Neo",33.2034187316895
+"11",3,"Hunting",0,"nonlinear",0.01,"EleutherAI-gpt-neo-125M-Surprisal-Context-P","EleutherAI-gpt-neo-125M","GPT-Neo","125M",125,"125M GPT-Neo",33.2034187316895
+"12",4,"Hunting",1,"nonlinear",0.396,"EleutherAI-gpt-neo-125M-Surprisal-Context-P","EleutherAI-gpt-neo-125M","GPT-Neo","125M",125,"125M GPT-Neo",33.2034187316895
+"13",1,"Gathering",0,"nonlinear",0.009,"EleutherAI-gpt-neo-2.7B-Surprisal-Context-P","EleutherAI-gpt-neo-2.7B","GPT-Neo","2.7B",270,"2.7B GPT-Neo",17.5315685272217
+"14",2,"Gathering",1,"nonlinear",0.349,"EleutherAI-gpt-neo-2.7B-Surprisal-Context-P","EleutherAI-gpt-neo-2.7B","GPT-Neo","2.7B",270,"2.7B GPT-Neo",17.5315685272217
+"15",3,"Hunting",0,"nonlinear",0.004,"EleutherAI-gpt-neo-2.7B-Surprisal-Context-P","EleutherAI-gpt-neo-2.7B","GPT-Neo","2.7B",270,"2.7B GPT-Neo",17.5315685272217
+"16",4,"Hunting",1,"nonlinear",0.188,"EleutherAI-gpt-neo-2.7B-Surprisal-Context-P","EleutherAI-gpt-neo-2.7B","GPT-Neo","2.7B",270,"2.7B GPT-Neo",17.5315685272217
+"17",1,"Gathering",0,"nonlinear",0.006,"EleutherAI-pythia-1.4b-Surprisal-Context-P","EleutherAI-pythia-1.4b","Pythia","1.4B",1400,"1.4B Pythia",17.6976585388184
+"18",2,"Gathering",1,"nonlinear",0.503,"EleutherAI-pythia-1.4b-Surprisal-Context-P","EleutherAI-pythia-1.4b","Pythia","1.4B",1400,"1.4B Pythia",17.6976585388184
+"19",3,"Hunting",0,"nonlinear",0.057,"EleutherAI-pythia-1.4b-Surprisal-Context-P","EleutherAI-pythia-1.4b","Pythia","1.4B",1400,"1.4B Pythia",17.6976585388184
+"20",4,"Hunting",1,"nonlinear",0.287,"EleutherAI-pythia-1.4b-Surprisal-Context-P","EleutherAI-pythia-1.4b","Pythia","1.4B",1400,"1.4B Pythia",17.6976585388184
+"21",1,"Gathering",0,"nonlinear",0.183,"EleutherAI-pythia-160m-Surprisal-Context-P","EleutherAI-pythia-160m","Pythia","160M",160,"160M Pythia",32.8699836730957
+"22",2,"Gathering",1,"nonlinear",0.558,"EleutherAI-pythia-160m-Surprisal-Context-P","EleutherAI-pythia-160m","Pythia","160M",160,"160M Pythia",32.8699836730957
+"23",3,"Hunting",0,"nonlinear",0.018,"EleutherAI-pythia-160m-Surprisal-Context-P","EleutherAI-pythia-160m","Pythia","160M",160,"160M Pythia",32.8699836730957
+"24",4,"Hunting",1,"nonlinear",0.976,"EleutherAI-pythia-160m-Surprisal-Context-P","EleutherAI-pythia-160m","Pythia","160M",160,"160M Pythia",32.8699836730957
+"25",1,"Gathering",0,"nonlinear",0.092,"EleutherAI-pythia-1b-Surprisal-Context-P","EleutherAI-pythia-1b","Pythia","1B",1000,"1B Pythia",19.4280281066895
+"26",2,"Gathering",1,"nonlinear",0.428,"EleutherAI-pythia-1b-Surprisal-Context-P","EleutherAI-pythia-1b","Pythia","1B",1000,"1B Pythia",19.4280281066895
+"27",3,"Hunting",0,"nonlinear",0.029,"EleutherAI-pythia-1b-Surprisal-Context-P","EleutherAI-pythia-1b","Pythia","1B",1000,"1B Pythia",19.4280281066895
+"28",4,"Hunting",1,"nonlinear",0.527,"EleutherAI-pythia-1b-Surprisal-Context-P","EleutherAI-pythia-1b","Pythia","1B",1000,"1B Pythia",19.4280281066895
+"29",1,"Gathering",0,"nonlinear",0.029,"EleutherAI-pythia-2.8b-Surprisal-Context-P","EleutherAI-pythia-2.8b","Pythia","2.8B",2800,"2.8B Pythia",15.8276529312134
+"30",2,"Gathering",1,"nonlinear",0.567,"EleutherAI-pythia-2.8b-Surprisal-Context-P","EleutherAI-pythia-2.8b","Pythia","2.8B",2800,"2.8B Pythia",15.8276529312134
+"31",3,"Hunting",0,"nonlinear",0.007,"EleutherAI-pythia-2.8b-Surprisal-Context-P","EleutherAI-pythia-2.8b","Pythia","2.8B",2800,"2.8B Pythia",15.8276529312134
+"32",4,"Hunting",1,"nonlinear",0.192,"EleutherAI-pythia-2.8b-Surprisal-Context-P","EleutherAI-pythia-2.8b","Pythia","2.8B",2800,"2.8B Pythia",15.8276529312134
+"33",1,"Gathering",0,"nonlinear",0.018,"EleutherAI-pythia-410m-Surprisal-Context-P","EleutherAI-pythia-410m","Pythia","410M",410,"410M Pythia",22.6070079803467
+"34",2,"Gathering",1,"nonlinear",0.745,"EleutherAI-pythia-410m-Surprisal-Context-P","EleutherAI-pythia-410m","Pythia","410M",410,"410M Pythia",22.6070079803467
+"35",3,"Hunting",0,"nonlinear",0.025,"EleutherAI-pythia-410m-Surprisal-Context-P","EleutherAI-pythia-410m","Pythia","410M",410,"410M Pythia",22.6070079803467
+"36",4,"Hunting",1,"nonlinear",0.317,"EleutherAI-pythia-410m-Surprisal-Context-P","EleutherAI-pythia-410m","Pythia","410M",410,"410M Pythia",22.6070079803467
+"37",1,"Gathering",0,"nonlinear",0.004,"EleutherAI-pythia-6.9b-Surprisal-Context-P","EleutherAI-pythia-6.9b","Pythia","6.9B",6900,"6.9B Pythia",14.6314687728882
+"38",2,"Gathering",1,"nonlinear",0.258,"EleutherAI-pythia-6.9b-Surprisal-Context-P","EleutherAI-pythia-6.9b","Pythia","6.9B",6900,"6.9B Pythia",14.6314687728882
+"39",3,"Hunting",0,"nonlinear",0.013,"EleutherAI-pythia-6.9b-Surprisal-Context-P","EleutherAI-pythia-6.9b","Pythia","6.9B",6900,"6.9B Pythia",14.6314687728882
+"40",4,"Hunting",1,"nonlinear",0.118,"EleutherAI-pythia-6.9b-Surprisal-Context-P","EleutherAI-pythia-6.9b","Pythia","6.9B",6900,"6.9B Pythia",14.6314687728882
+"41",1,"Gathering",0,"nonlinear",0.191,"EleutherAI-pythia-70m-Surprisal-Context-P","EleutherAI-pythia-70m","Pythia","70M",70,"70M Pythia",48.9940147399902
+"42",2,"Gathering",1,"nonlinear",0.66,"EleutherAI-pythia-70m-Surprisal-Context-P","EleutherAI-pythia-70m","Pythia","70M",70,"70M Pythia",48.9940147399902
+"43",3,"Hunting",0,"nonlinear",0.032,"EleutherAI-pythia-70m-Surprisal-Context-P","EleutherAI-pythia-70m","Pythia","70M",70,"70M Pythia",48.9940147399902
+"44",4,"Hunting",1,"nonlinear",0.848,"EleutherAI-pythia-70m-Surprisal-Context-P","EleutherAI-pythia-70m","Pythia","70M",70,"70M Pythia",48.9940147399902
+"61",1,"Gathering",0,"nonlinear",0.021,"facebook-opt-1.3b-Surprisal-Context-P","facebook-opt-1.3b","OPT","1.3B",1300,"1.3B OPT",18.316535949707
+"62",2,"Gathering",1,"nonlinear",0.455,"facebook-opt-1.3b-Surprisal-Context-P","facebook-opt-1.3b","OPT","1.3B",1300,"1.3B OPT",18.316535949707
+"63",3,"Hunting",0,"nonlinear",0.005,"facebook-opt-1.3b-Surprisal-Context-P","facebook-opt-1.3b","OPT","1.3B",1300,"1.3B OPT",18.316535949707
+"64",4,"Hunting",1,"nonlinear",0.076,"facebook-opt-1.3b-Surprisal-Context-P","facebook-opt-1.3b","OPT","1.3B",1300,"1.3B OPT",18.316535949707
+"65",1,"Gathering",0,"nonlinear",0.009,"facebook-opt-2.7b-Surprisal-Context-P","facebook-opt-2.7b","OPT","2.7B",2700,"2.7B OPT",16.7364120483398
+"66",2,"Gathering",1,"nonlinear",0.018,"facebook-opt-2.7b-Surprisal-Context-P","facebook-opt-2.7b","OPT","2.7B",2700,"2.7B OPT",16.7364120483398
+"67",3,"Hunting",0,"nonlinear",0.002,"facebook-opt-2.7b-Surprisal-Context-P","facebook-opt-2.7b","OPT","2.7B",2700,"2.7B OPT",16.7364120483398
+"68",4,"Hunting",1,"nonlinear",0.027,"facebook-opt-2.7b-Surprisal-Context-P","facebook-opt-2.7b","OPT","2.7B",2700,"2.7B OPT",16.7364120483398
+"69",1,"Gathering",0,"nonlinear",0.052,"facebook-opt-350m-Surprisal-Context-P","facebook-opt-350m","OPT","350M",350,"350M OPT",25.5409908294678
+"70",2,"Gathering",1,"nonlinear",0.285,"facebook-opt-350m-Surprisal-Context-P","facebook-opt-350m","OPT","350M",350,"350M OPT",25.5409908294678
+"71",3,"Hunting",0,"nonlinear",0.02,"facebook-opt-350m-Surprisal-Context-P","facebook-opt-350m","OPT","350M",350,"350M OPT",25.5409908294678
+"72",4,"Hunting",1,"nonlinear",0.474,"facebook-opt-350m-Surprisal-Context-P","facebook-opt-350m","OPT","350M",350,"350M OPT",25.5409908294678
+"73",1,"Gathering",0,"nonlinear",0.005,"facebook-opt-6.7b-Surprisal-Context-P","facebook-opt-6.7b","OPT","6.7B",6700,"6.7B OPT",15.0806980133057
+"74",2,"Gathering",1,"nonlinear",0.127,"facebook-opt-6.7b-Surprisal-Context-P","facebook-opt-6.7b","OPT","6.7B",6700,"6.7B OPT",15.0806980133057
+"75",3,"Hunting",0,"nonlinear",0.001,"facebook-opt-6.7b-Surprisal-Context-P","facebook-opt-6.7b","OPT","6.7B",6700,"6.7B OPT",15.0806980133057
+"76",4,"Hunting",1,"nonlinear",0.114,"facebook-opt-6.7b-Surprisal-Context-P","facebook-opt-6.7b","OPT","6.7B",6700,"6.7B OPT",15.0806980133057
+"77",1,"Gathering",0,"nonlinear",0,"google-gemma-2-9b-Surprisal-Context-P","google-gemma-2-9b","Gemma","9B",9000,"9B Gemma-2",12.0823450088501
+"78",2,"Gathering",1,"nonlinear",0,"google-gemma-2-9b-Surprisal-Context-P","google-gemma-2-9b","Gemma","9B",9000,"9B Gemma-2",12.0823450088501
+"79",3,"Hunting",0,"nonlinear",0,"google-gemma-2-9b-Surprisal-Context-P","google-gemma-2-9b","Gemma","9B",9000,"9B Gemma-2",12.0823450088501
+"80",4,"Hunting",1,"nonlinear",0.117,"google-gemma-2-9b-Surprisal-Context-P","google-gemma-2-9b","Gemma","9B",9000,"9B Gemma-2",12.0823450088501
+"81",1,"Gathering",0,"nonlinear",0,"google-gemma-7b-Surprisal-Context-P","google-gemma-7b","Gemma","7B",7000,"7B Gemma",11.5546369552612
+"82",2,"Gathering",1,"nonlinear",0.026,"google-gemma-7b-Surprisal-Context-P","google-gemma-7b","Gemma","7B",7000,"7B Gemma",11.5546369552612
+"83",3,"Hunting",0,"nonlinear",0.002,"google-gemma-7b-Surprisal-Context-P","google-gemma-7b","Gemma","7B",7000,"7B Gemma",11.5546369552612
+"84",4,"Hunting",1,"nonlinear",0.091,"google-gemma-7b-Surprisal-Context-P","google-gemma-7b","Gemma","7B",7000,"7B Gemma",11.5546369552612
+"85",1,"Gathering",0,"nonlinear",0.001,"google-recurrentgemma-9b-Surprisal-Context-P","google-recurrentgemma-9b","Gemma","9B",9000,"9B Recurrent Gemma",11.7682075500488
+"86",2,"Gathering",1,"nonlinear",0.008,"google-recurrentgemma-9b-Surprisal-Context-P","google-recurrentgemma-9b","Gemma","9B",9000,"9B Recurrent Gemma",11.7682075500488
+"87",3,"Hunting",0,"nonlinear",0.009,"google-recurrentgemma-9b-Surprisal-Context-P","google-recurrentgemma-9b","Gemma","9B",9000,"9B Recurrent Gemma",11.7682075500488
+"88",4,"Hunting",1,"nonlinear",0.019,"google-recurrentgemma-9b-Surprisal-Context-P","google-recurrentgemma-9b","Gemma","9B",9000,"9B Recurrent Gemma",11.7682075500488
+"89",1,"Gathering",0,"nonlinear",0.575,"gpt2-Surprisal-Context-P","gpt2","GPT-2","117M",117,"117M GPT-2",28.2925548553467
+"90",2,"Gathering",1,"nonlinear",0.771,"gpt2-Surprisal-Context-P","gpt2","GPT-2","117M",117,"117M GPT-2",28.2925548553467
+"91",3,"Hunting",0,"nonlinear",0.09,"gpt2-Surprisal-Context-P","gpt2","GPT-2","117M",117,"117M GPT-2",28.2925548553467
+"92",4,"Hunting",1,"nonlinear",0.307,"gpt2-Surprisal-Context-P","gpt2","GPT-2","117M",117,"117M GPT-2",28.2925548553467
+"93",1,"Gathering",0,"nonlinear",0.502,"gpt2-large-Surprisal-Context-P","gpt2-large","GPT-2","774M",774,"774M GPT-2",18.7550048828125
+"94",2,"Gathering",1,"nonlinear",0.985,"gpt2-large-Surprisal-Context-P","gpt2-large","GPT-2","774M",774,"774M GPT-2",18.7550048828125
+"95",3,"Hunting",0,"nonlinear",0.053,"gpt2-large-Surprisal-Context-P","gpt2-large","GPT-2","774M",774,"774M GPT-2",18.7550048828125
+"96",4,"Hunting",1,"nonlinear",0.541,"gpt2-large-Surprisal-Context-P","gpt2-large","GPT-2","774M",774,"774M GPT-2",18.7550048828125
+"97",1,"Gathering",0,"nonlinear",0.262,"gpt2-medium-Surprisal-Context-P","gpt2-medium","GPT-2","345M",345,"345M GPT-2",21.3545570373535
+"98",2,"Gathering",1,"nonlinear",0.439,"gpt2-medium-Surprisal-Context-P","gpt2-medium","GPT-2","345M",345,"345M GPT-2",21.3545570373535
+"99",3,"Hunting",0,"nonlinear",0.067,"gpt2-medium-Surprisal-Context-P","gpt2-medium","GPT-2","345M",345,"345M GPT-2",21.3545570373535
+"100",4,"Hunting",1,"nonlinear",0.212,"gpt2-medium-Surprisal-Context-P","gpt2-medium","GPT-2","345M",345,"345M GPT-2",21.3545570373535
+"101",1,"Gathering",0,"nonlinear",0.347,"gpt2-xl-Surprisal-Context-P","gpt2-xl","GPT-2","1558M",1558,"1558M GPT-2",16.9002914428711
+"102",2,"Gathering",1,"nonlinear",0.868,"gpt2-xl-Surprisal-Context-P","gpt2-xl","GPT-2","1558M",1558,"1558M GPT-2",16.9002914428711
+"103",3,"Hunting",0,"nonlinear",0.066,"gpt2-xl-Surprisal-Context-P","gpt2-xl","GPT-2","1558M",1558,"1558M GPT-2",16.9002914428711
+"104",4,"Hunting",1,"nonlinear",0.186,"gpt2-xl-Surprisal-Context-P","gpt2-xl","GPT-2","1558M",1558,"1558M GPT-2",16.9002914428711
+"105",1,"Gathering",0,"nonlinear",0,"meta-llama-Llama-2-13b-chat-hf-Surprisal-Context-P","meta-llama-Llama-2-13b-chat-hf","Llama-2","13B",13000,"13B Llama-2 Chat",11.0872163772583
+"106",2,"Gathering",1,"nonlinear",0,"meta-llama-Llama-2-13b-chat-hf-Surprisal-Context-P","meta-llama-Llama-2-13b-chat-hf","Llama-2","13B",13000,"13B Llama-2 Chat",11.0872163772583
+"107",3,"Hunting",0,"nonlinear",0,"meta-llama-Llama-2-13b-chat-hf-Surprisal-Context-P","meta-llama-Llama-2-13b-chat-hf","Llama-2","13B",13000,"13B Llama-2 Chat",11.0872163772583
+"108",4,"Hunting",1,"nonlinear",0.021,"meta-llama-Llama-2-13b-chat-hf-Surprisal-Context-P","meta-llama-Llama-2-13b-chat-hf","Llama-2","13B",13000,"13B Llama-2 Chat",11.0872163772583
+"109",1,"Gathering",0,"nonlinear",0,"meta-llama-Llama-2-13b-hf-Surprisal-Context-P","meta-llama-Llama-2-13b-hf","Llama-2","13B",13000,"13B Llama-2",8.39946174621582
+"110",2,"Gathering",1,"nonlinear",0,"meta-llama-Llama-2-13b-hf-Surprisal-Context-P","meta-llama-Llama-2-13b-hf","Llama-2","13B",13000,"13B Llama-2",8.39946174621582
+"111",3,"Hunting",0,"nonlinear",0,"meta-llama-Llama-2-13b-hf-Surprisal-Context-P","meta-llama-Llama-2-13b-hf","Llama-2","13B",13000,"13B Llama-2",8.39946174621582
+"112",4,"Hunting",1,"nonlinear",0.023,"meta-llama-Llama-2-13b-hf-Surprisal-Context-P","meta-llama-Llama-2-13b-hf","Llama-2","13B",13000,"13B Llama-2",8.39946174621582
+"113",1,"Gathering",0,"nonlinear",0.009,"meta-llama-Llama-2-70b-hf-Surprisal-Context-P","meta-llama-Llama-2-70b-hf","Llama-2","70B",70000,"70B Llama-2",7.2031192779541
+"114",2,"Gathering",1,"nonlinear",0.004,"meta-llama-Llama-2-70b-hf-Surprisal-Context-P","meta-llama-Llama-2-70b-hf","Llama-2","70B",70000,"70B Llama-2",7.2031192779541
+"115",3,"Hunting",0,"nonlinear",0.007,"meta-llama-Llama-2-70b-hf-Surprisal-Context-P","meta-llama-Llama-2-70b-hf","Llama-2","70B",70000,"70B Llama-2",7.2031192779541
+"116",4,"Hunting",1,"nonlinear",0.044,"meta-llama-Llama-2-70b-hf-Surprisal-Context-P","meta-llama-Llama-2-70b-hf","Llama-2","70B",70000,"70B Llama-2",7.2031192779541
+"117",1,"Gathering",0,"nonlinear",0.008,"meta-llama-Llama-2-7b-chat-hf-Surprisal-Context-P","meta-llama-Llama-2-7b-chat-hf","Llama-2","7B",7000,"7B Llama-2 Chat",12.8955240249634
+"118",2,"Gathering",1,"nonlinear",0.03,"meta-llama-Llama-2-7b-chat-hf-Surprisal-Context-P","meta-llama-Llama-2-7b-chat-hf","Llama-2","7B",7000,"7B Llama-2 Chat",12.8955240249634
+"119",3,"Hunting",0,"nonlinear",0.001,"meta-llama-Llama-2-7b-chat-hf-Surprisal-Context-P","meta-llama-Llama-2-7b-chat-hf","Llama-2","7B",7000,"7B Llama-2 Chat",12.8955240249634
+"120",4,"Hunting",1,"nonlinear",0.412,"meta-llama-Llama-2-7b-chat-hf-Surprisal-Context-P","meta-llama-Llama-2-7b-chat-hf","Llama-2","7B",7000,"7B Llama-2 Chat",12.8955240249634
+"121",1,"Gathering",0,"nonlinear",0.006,"meta-llama-Llama-2-7b-hf-Surprisal-Context-P","meta-llama-Llama-2-7b-hf","Llama-2","7B",7000,"7B Llama-2",9.04788398742676
+"122",2,"Gathering",1,"nonlinear",0.157,"meta-llama-Llama-2-7b-hf-Surprisal-Context-P","meta-llama-Llama-2-7b-hf","Llama-2","7B",7000,"7B Llama-2",9.04788398742676
+"123",3,"Hunting",0,"nonlinear",0.064,"meta-llama-Llama-2-7b-hf-Surprisal-Context-P","meta-llama-Llama-2-7b-hf","Llama-2","7B",7000,"7B Llama-2",9.04788398742676
+"124",4,"Hunting",1,"nonlinear",0.046,"meta-llama-Llama-2-7b-hf-Surprisal-Context-P","meta-llama-Llama-2-7b-hf","Llama-2","7B",7000,"7B Llama-2",9.04788398742676
+"125",1,"Gathering",0,"nonlinear",0,"mistralai-Mistral-7B-Instruct-v0.3-Surprisal-Context-P","mistralai-Mistral-7B-Instruct-v0.3","Mistral","7B",7000,"7B Mistral Instruct v0.3",9.89950561523438
+"126",2,"Gathering",1,"nonlinear",0.002,"mistralai-Mistral-7B-Instruct-v0.3-Surprisal-Context-P","mistralai-Mistral-7B-Instruct-v0.3","Mistral","7B",7000,"7B Mistral Instruct v0.3",9.89950561523438
+"127",3,"Hunting",0,"nonlinear",0,"mistralai-Mistral-7B-Instruct-v0.3-Surprisal-Context-P","mistralai-Mistral-7B-Instruct-v0.3","Mistral","7B",7000,"7B Mistral Instruct v0.3",9.89950561523438
+"128",4,"Hunting",1,"nonlinear",0.102,"mistralai-Mistral-7B-Instruct-v0.3-Surprisal-Context-P","mistralai-Mistral-7B-Instruct-v0.3","Mistral","7B",7000,"7B Mistral Instruct v0.3",9.89950561523438
+"129",1,"Gathering",0,"nonlinear",0.002,"mistralai-Mistral-7B-v0.1-Surprisal-Context-P","mistralai-Mistral-7B-v0.1","Mistral","7B",7000,"7B Mistral v0.1",9.21091938018799
+"130",2,"Gathering",1,"nonlinear",0.039,"mistralai-Mistral-7B-v0.1-Surprisal-Context-P","mistralai-Mistral-7B-v0.1","Mistral","7B",7000,"7B Mistral v0.1",9.21091938018799
+"131",3,"Hunting",0,"nonlinear",0,"mistralai-Mistral-7B-v0.1-Surprisal-Context-P","mistralai-Mistral-7B-v0.1","Mistral","7B",7000,"7B Mistral v0.1",9.21091938018799
+"132",4,"Hunting",1,"nonlinear",0.02,"mistralai-Mistral-7B-v0.1-Surprisal-Context-P","mistralai-Mistral-7B-v0.1","Mistral","7B",7000,"7B Mistral v0.1",9.21091938018799
+"133",1,"Gathering",0,"nonlinear",0.001,"mistralai-Mistral-7B-v0.3-Surprisal-Context-P","mistralai-Mistral-7B-v0.3","Mistral","7B",7000,"7B Mistral v0.3",9.30939769744873
+"134",2,"Gathering",1,"nonlinear",0.082,"mistralai-Mistral-7B-v0.3-Surprisal-Context-P","mistralai-Mistral-7B-v0.3","Mistral","7B",7000,"7B Mistral v0.3",9.30939769744873
+"135",3,"Hunting",0,"nonlinear",0,"mistralai-Mistral-7B-v0.3-Surprisal-Context-P","mistralai-Mistral-7B-v0.3","Mistral","7B",7000,"7B Mistral v0.3",9.30939769744873
+"136",4,"Hunting",1,"nonlinear",0.025,"mistralai-Mistral-7B-v0.3-Surprisal-Context-P","mistralai-Mistral-7B-v0.3","Mistral","7B",7000,"7B Mistral v0.3",9.30939769744873

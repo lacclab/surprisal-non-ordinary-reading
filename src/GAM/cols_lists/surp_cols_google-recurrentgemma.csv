@@ -1,0 +1,15 @@
+,surp_col,name,reread
+5,google-recurrentgemma-9b-Surprisal-Context-P,P,both
+11,google-recurrentgemma-9b-Surprisal-Context-Q-P,Q-P,0
+17,google-recurrentgemma-9b-Surprisal-Context-P-P,P-P,1
+23,google-recurrentgemma-9b-Surprisal-Context-Qfr-P-Q-P,Qfr-P-Q-P,1
+29,google-recurrentgemma-9b-Surprisal-Context-fillerP-P,fillP-P,1
+35,google-recurrentgemma-9b-Surprisal-Context-fillerQ-P,fillQ-P,0
+41,google-recurrentgemma-9b-Surprisal-Context-fillerQfr-fillerP-fillerQ-P,fillQfr-fillP-fillQ-P,1
+47,google-recurrentgemma-9b-Surprisal-Context-textFillP-P,textFillP-P,1
+53,google-recurrentgemma-9b-Surprisal-Context-textFillQ-P,textFillQ-P,0
+59,google-recurrentgemma-9b-Surprisal-Context-textFillQfr-textFillP-textFillQ-P,textFillQfr-textFillP-textFillQ-P,1
+65,google-recurrentgemma-9b-Surprisal-Context-instFirstReadP-P,instFirstReadP-P,both
+71,google-recurrentgemma-9b-Surprisal-Context-instFirstReadP-Q-P,instFirstReadP-Q-P,0
+77,google-recurrentgemma-9b-Surprisal-Context-instFirstReadP-P-instReReadP-P,instFirstReadP-P-instReReadP-P,1
+83,google-recurrentgemma-9b-Surprisal-Context-instFirstReadP-Qfr-P-instReReadP-Q-P,instFirstReadP-Qfr-P-instReReadP-Q-P,1

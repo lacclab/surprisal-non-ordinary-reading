@@ -1,0 +1,12 @@
+"","X","has_preview_condition","reread_condition","linear","p_val","context","article_level","filter_type","regime_plot","context_type","exclude_RegimeRepeatedReading","only_RegimeRepeatedReading","Regular","filler_plot"
+"1",1,"Gathering",0,"nonlinear",0.676,"instFirstReadA-pastP-P","article","exclude_RegimeRepeatedReading",1,"prompt_regime_context",1,0,1,0
+"2",2,"Hunting",0,"nonlinear",0.397,"instFirstReadA-pastQP-Q-P","article","exclude_RegimeRepeatedReading",1,"prompt_regime_context",1,0,1,0
+"3",1,"Gathering",0,"nonlinear",0.685,"pastP-P","article","exclude_RegimeRepeatedReading",1,"standard_context",1,0,1,1
+"4",2,"Gathering",1,"nonlinear",0.991,"pastP-P","article","exclude_RegimeRepeatedReading",1,"standard_context",1,0,1,1
+"5",3,"Hunting",0,"nonlinear",0.897,"pastP-P","article","exclude_RegimeRepeatedReading",1,"standard_context",1,0,1,1
+"6",4,"Hunting",1,"nonlinear",0.904,"pastP-P","article","exclude_RegimeRepeatedReading",1,"standard_context",1,0,1,1
+"7",2,"Hunting",0,"nonlinear",0.278,"pastQP-Q-P","article","exclude_RegimeRepeatedReading",1,"regime_context",1,0,1,0
+"8",1,"Gathering",1,"nonlinear",0.004,"Article-pastP-P","article","only_RegimeRepeatedReading",1,"regime_context",0,1,1,0
+"9",2,"Hunting",1,"nonlinear",0.524,"ArticleQfrP-pastQP-Q-P","article","only_RegimeRepeatedReading",1,"regime_context",0,1,1,0
+"10",2,"Hunting",1,"nonlinear",0.005,"instFirstReadA-ArticleQfrP-instReReadA-pastQP-Q-P","article","only_RegimeRepeatedReading",1,"prompt_regime_context",0,1,1,0
+"11",1,"Gathering",1,"nonlinear",0.523,"instFirstReadA-Article-instReReadA-pastP-P","article","only_RegimeRepeatedReading",1,"prompt_regime_context",0,1,1,0

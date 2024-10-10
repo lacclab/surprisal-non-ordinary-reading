@@ -1,0 +1,31 @@
+surp_col,model_id,model_name_with_size,sentence_level_ppl,name_with_ppl,model_family,model_size,model_size_milions
+EleutherAI-gpt-j-6B-Surprisal-Context-P,EleutherAI-gpt-j-6B,6B GPT-J,14.771708488464355,GPT-J 6B | ppl: 14.77,GPT-J,6B,6000.0
+EleutherAI-gpt-neo-1.3B-Surprisal-Context-P,EleutherAI-gpt-neo-1.3B,1.3B GPT-Neo,19.576723098754883,GPT-Neo 1.3B | ppl: 19.58,GPT-Neo,1.3B,1300.0
+EleutherAI-gpt-neo-125M-Surprisal-Context-P,EleutherAI-gpt-neo-125M,125M GPT-Neo,33.20341873168945,GPT-Neo 125M | ppl: 33.2,GPT-Neo,125M,125.0
+EleutherAI-gpt-neo-2.7B-Surprisal-Context-P,EleutherAI-gpt-neo-2.7B,2.7B GPT-Neo,17.53156852722168,GPT-Neo 2.7B | ppl: 17.53,GPT-Neo,2.7B,270.0
+EleutherAI-pythia-1.4b-Surprisal-Context-P,EleutherAI-pythia-1.4b,1.4B Pythia,17.69765853881836,Pythia 1.4B | ppl: 17.7,Pythia,1.4B,1400.0
+EleutherAI-pythia-160m-Surprisal-Context-P,EleutherAI-pythia-160m,160M Pythia,32.8699836730957,Pythia 160M | ppl: 32.87,Pythia,160M,160.0
+EleutherAI-pythia-1b-Surprisal-Context-P,EleutherAI-pythia-1b,1B Pythia,19.428028106689453,Pythia 1B | ppl: 19.43,Pythia,1B,1000.0
+EleutherAI-pythia-2.8b-Surprisal-Context-P,EleutherAI-pythia-2.8b,2.8B Pythia,15.82765293121338,Pythia 2.8B | ppl: 15.83,Pythia,2.8B,2800.0
+EleutherAI-pythia-410m-Surprisal-Context-P,EleutherAI-pythia-410m,410M Pythia,22.60700798034668,Pythia 410M | ppl: 22.61,Pythia,410M,410.0
+EleutherAI-pythia-6.9b-Surprisal-Context-P,EleutherAI-pythia-6.9b,6.9B Pythia,14.631468772888184,Pythia 6.9B | ppl: 14.63,Pythia,6.9B,6900.0
+EleutherAI-pythia-70m-Surprisal-Context-P,EleutherAI-pythia-70m,70M Pythia,48.99401473999024,Pythia 70M | ppl: 48.99,Pythia,70M,70.0
+facebook-opt-1.3b-Surprisal-Context-P,facebook-opt-1.3b,1.3B OPT,18.31653594970703,OPT 1.3B | ppl: 18.32,OPT,1.3B,1300.0
+facebook-opt-2.7b-Surprisal-Context-P,facebook-opt-2.7b,2.7B OPT,16.736412048339844,OPT 2.7B | ppl: 16.74,OPT,2.7B,2700.0
+facebook-opt-350m-Surprisal-Context-P,facebook-opt-350m,350M OPT,25.540990829467773,OPT 350M | ppl: 25.54,OPT,350M,350.0
+facebook-opt-6.7b-Surprisal-Context-P,facebook-opt-6.7b,6.7B OPT,15.080698013305664,OPT 6.7B | ppl: 15.08,OPT,6.7B,6700.0
+google-gemma-2-9b-Surprisal-Context-P,google-gemma-2-9b,9B Gemma-2,12.082345008850098,Gemma-2 9B | ppl: 12.08,Gemma,9B,9000.0
+google-gemma-7b-Surprisal-Context-P,google-gemma-7b,7B Gemma,11.55463695526123,Gemma 7B | ppl: 11.55,Gemma,7B,7000.0
+google-recurrentgemma-9b-Surprisal-Context-P,google-recurrentgemma-9b,9B Recurrent Gemma,11.768207550048828,Recurrent-Gemma 9B | ppl:11.76,Gemma,9B,9000.0
+gpt2-Surprisal-Context-P,gpt2,117M GPT-2,28.29255485534668,GPT-2-small 117M | ppl: 28.29,GPT-2,117M,117.0
+gpt2-large-Surprisal-Context-P,gpt2-large,774M GPT-2,18.7550048828125,GPT-2-large 774M | ppl: 18.76,GPT-2,774M,774.0
+gpt2-medium-Surprisal-Context-P,gpt2-medium,345M GPT-2,21.35455703735352,GPT-2-medium 345M | ppl: 21.35,GPT-2,345M,345.0
+gpt2-xl-Surprisal-Context-P,gpt2-xl,1558M GPT-2,16.900291442871094,GPT-2-xl 1558M | ppl: 16.9,GPT-2,1558M,1558.0
+meta-llama-Llama-2-13b-chat-hf-Surprisal-Context-P,meta-llama-Llama-2-13b-chat-hf,13B Llama-2 Chat,11.0872163772583,Llama-2 Chat 13B | ppl: 11.09,Llama-2,13B,13000.0
+meta-llama-Llama-2-13b-hf-Surprisal-Context-P,meta-llama-Llama-2-13b-hf,13B Llama-2,8.39946174621582,Llama-2 13B | ppl: 8.4,Llama-2,13B,13000.0
+meta-llama-Llama-2-70b-hf-Surprisal-Context-P,meta-llama-Llama-2-70b-hf,70B Llama-2,7.203119277954102,Llama-2 70B | ppl: 7.2,Llama-2,70B,70000.0
+meta-llama-Llama-2-7b-chat-hf-Surprisal-Context-P,meta-llama-Llama-2-7b-chat-hf,7B Llama-2 Chat,12.89552402496338,Llama-2 Chat 7B | ppl: 12.9,Llama-2,7B,7000.0
+meta-llama-Llama-2-7b-hf-Surprisal-Context-P,meta-llama-Llama-2-7b-hf,7B Llama-2,9.047883987426758,Llama-2 7B | ppl: 9.05,Llama-2,7B,7000.0
+mistralai-Mistral-7B-Instruct-v0.3-Surprisal-Context-P,mistralai-Mistral-7B-Instruct-v0.3,7B Mistral Instruct v0.3,9.899505615234375,Mistral-Instruct-v0.3 7B | ppl: 9.89,Mistral,7B,7000.0
+mistralai-Mistral-7B-v0.1-Surprisal-Context-P,mistralai-Mistral-7B-v0.1,7B Mistral v0.1,9.210919380187988,Mistral-v0.1 7B | ppl: 9.21,Mistral,7B,7000.0
+mistralai-Mistral-7B-v0.3-Surprisal-Context-P,mistralai-Mistral-7B-v0.3,7B Mistral v0.3,9.30939769744873,Mistral-v0.3 7B | ppl: 9.3,Mistral,7B,7000.0

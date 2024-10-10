@@ -1,0 +1,17 @@
+,surp_col,name,reread,context_type,has_preview_condition,article_level
+0,EleutherAI-pythia-70m-Surprisal-Context-instFirstReadA-pastP-P,instFirstReadA-pastP-P,both,prompt_regime,Gathering,True
+1,EleutherAI-pythia-70m-Surprisal-Context-instFirstReadA-pastQP-Q-P,instFirstReadA-pastQP-Q-P,0,prompt_regime,Hunting,True
+2,EleutherAI-pythia-70m-Surprisal-Context-instFirstReadA-Article-instReReadA-pastP-P,instFirstReadA-Article-instReReadA-pastP-P,1,prompt_regime,Gathering,True
+3,EleutherAI-pythia-70m-Surprisal-Context-instFirstReadA-ArticleQfrP-instReReadA-pastQP-Q-P,instFirstReadA-ArticleQfrP-instReReadA-pastQP-Q-P,1,prompt_regime,Hunting,True
+4,EleutherAI-pythia-70m-Surprisal-Context-fillPastP-P,fillPastP-P,0,dots_filler,Gathering,True
+5,EleutherAI-pythia-70m-Surprisal-Context-fillPastQP-fillerQ-P,fillPastQP-fillerQ-P,0,dots_filler,Hunting,True
+6,EleutherAI-pythia-70m-Surprisal-Context-fillArticle-fillPastP-P,fillArticle-fillPastP-P,1,dots_filler,Gathering,True
+7,EleutherAI-pythia-70m-Surprisal-Context-fillArticleQfrP-fillPastQP-fillerQ-P,fillArticleQfrP-fillPastQP-fillerQ-P,1,dots_filler,Hunting,True
+8,EleutherAI-pythia-70m-Surprisal-Context-textFillPastP-P,textFillPastP-P,0,text_filler,Gathering,True
+9,EleutherAI-pythia-70m-Surprisal-Context-textFillPastQP-textFillQ-P,textFillPastQP-textFillQ-P,0,text_filler,Hunting,True
+10,EleutherAI-pythia-70m-Surprisal-Context-textFillArticle-textFillPastP-P,textFillArticle-textFillPastP-P,1,text_filler,Gathering,True
+11,EleutherAI-pythia-70m-Surprisal-Context-textFillArticleQfrP-textFillPastQP-textFillQ-P,textFillArticleQfrP-textFillPastQP-textFillQ-P,1,text_filler,Hunting,True
+12,EleutherAI-pythia-70m-Surprisal-Context-pastP-P,pastP-P,both,standard,Gathering,True
+13,EleutherAI-pythia-70m-Surprisal-Context-pastQP-Q-P,pastQP-Q-P,0,regime,Hunting,True
+14,EleutherAI-pythia-70m-Surprisal-Context-Article-pastP-P,Article-pastP-P,1,regime,Gathering,True
+15,EleutherAI-pythia-70m-Surprisal-Context-ArticleQfrP-pastQP-Q-P,ArticleQfrP-pastQP-Q-P,1,regime,Hunting,True

@@ -1,0 +1,13 @@
+"","has_preview_condition","reread_condition","model","cor"
+"1","Gathering",0,"linear",0.17626437129446
+"2","Gathering",0,"nonlinear",0.176884313429275
+"3","Gathering",0,"baseline",0.164096296579633
+"4","Gathering",1,"linear",0.132247964275775
+"5","Gathering",1,"nonlinear",0.132274877267423
+"6","Gathering",1,"baseline",0.124671260440053
+"7","Hunting",0,"linear",0.164366227518802
+"8","Hunting",0,"nonlinear",0.164942458097515
+"9","Hunting",0,"baseline",0.153657338297683
+"10","Hunting",1,"linear",0.112596359520076
+"11","Hunting",1,"nonlinear",0.112172541520569
+"12","Hunting",1,"baseline",0.109308343243005

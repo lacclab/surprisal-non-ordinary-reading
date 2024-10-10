@@ -1,0 +1,7 @@
+word,trial,value3,value1,common_col2,value2,common_col1
+apple,1,1000.0,10.0,X,100.0,A
+banana,2,,20.0,Y,200.0,B
+cherry,3,,30.0,Z,,C
+date,4,,,D,400.0,
+elderberry,5,5000.0,,,,E
+fig,6,6000.0,,,,F

@@ -1,0 +1,9 @@
+surp_col
+mistralai-Mistral-7B-Instruct-v0.3-Surprisal-Context-P-P
+mistralai-Mistral-7B-Instruct-v0.3-Surprisal-Context-Qfr-P-Q-P
+mistralai-Mistral-7B-Instruct-v0.3-Surprisal-Context-instFirstReadP-P-instReReadP-P
+mistralai-Mistral-7B-Instruct-v0.3-Surprisal-Context-instFirstReadP-Qfr-P-instReReadP-Q-P
+meta-llama-Llama-2-70b-hf-Surprisal-Context-P-P
+meta-llama-Llama-2-70b-hf-Surprisal-Context-Qfr-P-Q-P
+meta-llama-Llama-2-70b-hf-Surprisal-Context-instFirstReadP-P-instReReadP-P
+meta-llama-Llama-2-70b-hf-Surprisal-Context-instFirstReadP-Qfr-P-instReReadP-Q-P

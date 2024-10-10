@@ -1,0 +1,9 @@
+,has_preview_condition,reread_condition,linear,surp_p_val,prev_surp_p_val,surp_symbol,prev_surp_symbol,x_surp,y_surp,x_prev_surp,y_prev_surp,symbol_size,font_size
+0,Gathering,0,linear,1.8127460632613383e-164,5.5241606084452445e-22,***,***,180,90,180,125,30,30
+1,Gathering,0,nonlinear,0.0,0.0,***,***,260,90,260,125,30,30
+2,Gathering,1,linear,1.6581647105438355e-10,0.023432333135336582,***,*,180,550,180,585,30,30
+3,Gathering,1,nonlinear,0.0,0.011666125394104,***,*,260,550,260,585,30,30
+4,Hunting,0,linear,1.948320903211567e-92,1.9601550937267276e-21,***,***,670,90,670,125,30,30
+5,Hunting,0,nonlinear,0.0,0.0,***,***,750,90,750,125,30,30
+6,Hunting,1,linear,0.0009008179908903471,0.31087091870174516,***,(.),670,550,670,585,30,30
+7,Hunting,1,nonlinear,8.772324988273424e-06,0.2705833766176114,***,(.),750,550,750,585,30,30
