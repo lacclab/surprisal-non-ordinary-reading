@@ -153,7 +153,6 @@ def _get_fixed_dat_files(all_dat_files: pd.DataFrame, c_df: pd.DataFrame):
         total=len(all_dat_files),
         desc="Tokenizing",
     ):
-        # TODO consider using merge instead of iterating through examples to find matches
         matches = c_df[
             (c_df["paragraph_id"] == example.paragraph_id)
             & (c_df["list"] == example.list)
@@ -194,7 +193,7 @@ def _fix_paragraph(paragraph: str, word: str, ia_id: int) -> str:
             continue
         if words[i] == word:
             # Replace the word
-            if word == "6.30am;":  # TODO remove hardcoding
+            if word == "6.30am;":
                 words[i] = "6.30 am;"
             words[i] = words[i].replace("-", "- ", 1)
             break

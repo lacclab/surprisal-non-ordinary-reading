@@ -1,3 +1,16 @@
+# Functions for context plot generation and analysis
+
+# get_context_plot_configs: Retrieves configuration settings for context plots
+# get_context_dfs: Loads and processes context-related data frames
+# plot_Context_dll: Generates Difference in Log-Likelihood (DLL) plots
+# plot_Context_slowdown_RT_by_surprisal: Creates GAM plots for smoothed data
+
+# These functions are used to analyze and visualize the effects of different context on dll and RT smooths.
+# They handle various aspects of data processing, configuration, and plotting for different models and settings.
+
+# An example of how to use these functions with the run_context_plots function is provided at the end of this file.
+
+
 library(here)
 library(ggplot2)
 library(ggh4x)
@@ -492,7 +505,6 @@ get_context_dfs <- function(
     )
 }
 
-# Run
 run_context_plots <- function(
     context_plot_type, 
     model_name, 
@@ -538,85 +550,35 @@ run_context_plots <- function(
     }
 }
 
-# nlp 11
-# pythia70m
+# Run
+# Description of the run_context_plots function and its usage
+
+# The run_context_plots function is a comprehensive tool for generating context-related plots
+# for different models and configurations. It performs the following main tasks:
+
+# 1. Retrieves configuration settings based on input parameters
+# 2. Loads and processes context-related data frames
+# 3. Generates Difference in Log-Likelihood (DLL) plots
+# 4. Optionally creates GAM (Generalized Additive Model) plots for smoothed data
+
+# The function takes several parameters:
+# - context_plot_type: Determines the type of context plot to generate - use "zoom_in_only_for_rr" for results like in the paper
+# - model_name: Specifies the name of the model being analyzed
+# - result_dir: Directory where results of model are saved
+# - file_name: Name of the input file containing the data
+# - plot_fillers: Boolean flag to include or exclude filler plots
+# - article_level_val: Specifies the level of analysis (e.g., "paragraph" or "article")
+
+# The subsequent code demonstrates how to use this function for different models and configurations,
+# allowing for comprehensive analysis of context effects on reading times and surprisal.
+
+preprocess_type = "results 0<RT<3000 firstpassNA"
 file_name = "et_20240505_with_all_surp20240624"
 plot_smooths = TRUE
-# plot_smooths = FALSE
 article_level_val = "paragraph"
 models_list = c( # nlp 11
     'EleutherAI-pythia-70m'
 ) 
-
-# nlp 11
-# pythia70m_article
-# file_name = "et_20240505_EleutherAI-pythia-70m_article"
-# plot_smooths = TRUE
-# plot_smooths = FALSE
-# article_level_val = "article"
-# models_list = c(
-#     'EleutherAI-pythia-70m'
-# )
-
-# nlp 11
-# large_models_3
-# file_name = "et_20240505_large_models_part_3_context_cols_20240625"
-# plot_smooths = TRUE
-# plot_smooths = FALSE
-# article_level_val = "paragraph"
-# models_list = c(
-#     # 'google-gemma-2-9b',
-#     # 'google-recurrentgemma-9b',
-# )
-
-# nlp 12
-# gpt2
-# file_name = "et_20240505_with_all_surp20240624"
-# plot_smooths = TRUE
-# plot_smooths = FALSE
-# article_level_val = "paragraph"
-# models_list = c(
-#     'gpt2'
-# )
-
-# nlp 16
-# large_models
-# file_name = "et_20240505_large_models_context_cols_20240625"
-# plot_smooths = TRUE
-# article_level_val = "paragraph"
-# models_list = c(
-#     'EleutherAI-gpt-j-6B', 
-#     'EleutherAI-pythia-2.8b',
-#     'EleutherAI-pythia-6.9b', 
-#     'facebook-opt-6.7b'
-# )
-
-# nlp 16
-# large_models_part_2
-# file_name = "et_20240505_large_models_part_2_context_cols_20240625"
-# plot_smooths = TRUE
-# article_level_val = "paragraph"
-# models_list = c(
-#     'google-gemma-7b', 
-#     'meta-llama-Llama-2-13b-hf',
-#     'meta-llama-Llama-2-13b-chat-hf', 
-#     'meta-llama-Llama-2-70b-hf',
-#     'meta-llama-Llama-2-7b-chat-hf',
-#     'mistralai-Mistral-7B-Instruct-v0.3', 
-#     'mistralai-Mistral-7B-v0.1',
-#     'mistralai-Mistral-7B-v0.3', 
-# )
-
-# # nlp 16
-# # gemma-2-9b_article
-# file_name = "et_20240505_gemma-2-9b_article"
-# plot_smooths = TRUE
-# article_level_val = "article"
-# models_list = c(
-#     'google-gemma-2-9b'
-# )
-
-preprocess_type = "results 0<RT<3000 firstpassNA"
 
 for (model_name in models_list){
     cat("Context Plot| ", model_name, " --------- \n")
@@ -637,23 +599,3 @@ for (model_name in models_list){
         article_level_val = article_level_val
     )
 }
-
-# for (model_name in models_list){
-#     cat("Context Plot| ", model_name, " --------- \n")
-#     run_context_plots(
-#         context_plot_type = "regular",
-#         model_name = model_name,
-#         result_dir = "results 0<RT<3000 firstpassNA",
-#         file_name = file_name,
-#         plot_fillers = FALSE,
-#         article_level_val = article_level_val
-#     )
-#     run_context_plots(
-#         context_plot_type = "regular",
-#         model_name = model_name,
-#         result_dir = "results 0<RT<3000 firstpassNA",
-#         file_name = file_name,
-#         plot_fillers = TRUE,
-#         article_level_val = article_level_val
-#     )
-# }

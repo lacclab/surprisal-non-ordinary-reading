@@ -193,7 +193,6 @@ def add_answers_to_et_df(
     )
 
     if "answers_order" in et_df.columns:
-        # TODO: check why there is already this col 
         et_df = et_df.drop(columns=["answers_order"])
     
     if inplace:

@@ -1,6 +1,14 @@
 # Conduct permutation tests for comparing DLLs (Reproduce Section 6.2 p vals)
 
-shhh <- suppressPackageStartupMessages
+# -----------------------------------------------------------------------------
+# This script conducts context-based DLL (Delta Log-Likelihood) comparisons for 
+# various models using permutation tests. It loads DLL data, filters it based 
+# on conditions, and performs paired comparisons between different contexts to 
+# evaluate their statistical significance. Outputs include p-values and summary 
+# statistics saved as CSV files. 
+# -----------------------------------------------------------------------------
+
+shhh <- suppressPackageStartupMessages # It's a library, so shhh!
 shhh(library( mgcv ))
 shhh(library(dplyr))
 shhh(library(ggplot2))
@@ -19,7 +27,6 @@ library(tidyr)
 library(jmuOutlier)
 library(purrr)
 library(CIPerm)
-
 theme_set(theme_bw())
 library(here)
 source(here("src", "GAM", "GAM_analysis_funcs.R"))
@@ -176,9 +183,9 @@ x_condition_name="has_preview_condition"
 y_condition_name="reread_condition"
 
 # Example
-file_name = "et_20240505_with_all_surp20240624"
-compare_plan = read.csv("/src/GAM/context_plots/stats_tests/GAM_dll_compare_plan.csv")
-models_list = c("EleutherAI-pythia-70m")
+file_name = "et_20240505_with_all_surp20240624" # Define the file_name for results
+compare_plan = read.csv("/src/GAM/context_plots/stats_tests/GAM_dll_compare_plan.csv") # Load the comparison plan from a CSV file
+models_list = c("EleutherAI-pythia-70m") # Specify the list of models to test
 
 for (model_name in models_list){
     cat("Context DLL Test| ", model_name, " --------- \n")
