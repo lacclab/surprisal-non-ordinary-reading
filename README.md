@@ -55,7 +55,7 @@
 2. Merge them into a single "all surprisals" CSV
 3. Put the path of the merged CSV in `GAM_run_config.R` (set `basic_file_path`)
 4. For the following steps (5-8) - Choose the analysis type and model name
-    - Possible analysis types:
+    - Analysis types:
         - "Basic_Analysis" (Fig 1)
         - "Different_Surprisal_Context" and "Different_Surprisal_Context_zoom_in" (Fig 2)
     - Example model name: "EleutherAI-pythia-70m"
