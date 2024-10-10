@@ -27,7 +27,7 @@
 
 ### Reproduce the Results in Appendix
 
-1. Run `src/GAM/perplexity/perplexity_plot.R` - Perplexity Plot (Fig A1)
+1. Run `src/GAM/perplexity/perplexity_plot.R` (Fig A1)
 2. Additional analysis types:
     - `"Different_Surprisal_Estimates"` (Fig A2)
     - `"Basic_Analysis"` (Fig A3)
