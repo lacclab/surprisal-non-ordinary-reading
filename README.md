@@ -1,4 +1,4 @@
-# The Effect of Surprisal on Reading Times in Information Seeking and Repeated Reading
+# Code for the paper: The Effect of Surprisal on Reading Times in Information Seeking and Repeated Reading
 
 [![Ruff](https://github.com/lacclab/surprisal-non-ordinary-reading/actions/workflows/ruff.yml/badge.svg?branch=main)](https://github.com/lacclab/surprisal-non-ordinary-reading/actions/workflows/ruff.yml)
 
