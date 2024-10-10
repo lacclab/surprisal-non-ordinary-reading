@@ -26,7 +26,6 @@ def add_article_context_cols(
     et_df = add_Hunting_Article_cols(et_df)
     et_df = add_article_dot_fillers(et_df)
     et_df = add_article_text_fillers(et_df)
-    validate_cols_len(et_df, article_cols)
     validate_cols(et_df, article_cols)
     
     return et_df
@@ -359,9 +358,3 @@ def add_article_text_fillers(et_df: pd.DataFrame) -> pd.DataFrame:
     et_df = add_prefixes_based_on_ops(et_df, operations)
 
     return et_df
-
-
-def validate_cols_len(et_df: pd.DataFrame, article_cols: list[str]) -> pd.DataFrame:
-    return
-    # TODO
-    raise NotImplementedError
