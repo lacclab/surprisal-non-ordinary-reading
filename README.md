@@ -43,7 +43,7 @@
 If you use this repository, please consider citing the following work:
 
 ```bibtex
-@misc{Klein2024surpnonordinary,
+@misc{GrutekeKlein2024surpnonordinary,
       title={The Effect of Surprisal on Reading Times in Information Seeking and Repeated Reading},
       author={Keren Gruteke Klein, Yoav Meiri, Omer Shubi, Yevgeni Berzak},
       year={2024},
