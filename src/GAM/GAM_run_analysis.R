@@ -60,7 +60,7 @@ plot_and_density = FALSE
 
 # TODO: choose the analysis type and model name
 analysis_type_list = c("Consecutive_Repeated_reading", "Critical_Span", "Basic_Analysis",
-                    "Different_Surprisal_Context", "Different_Surprisal_Context_zoom_in")
+                    "Different_Surprisal_Context", "Different_Surprisal_Context_zoom_in") # Different_Surprisal_Estimates
 model_name = "EleutherAI-pythia-70m"
 
 # ----------------- Run ---------------------
