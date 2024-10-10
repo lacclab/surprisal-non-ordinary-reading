@@ -24,10 +24,6 @@ dependencies = [
   # https://github.com/lacclab/text-metrics.git
 ]
 
-[tool.ruff.lint.per-file-ignores]
-"src/MixedModelsTools/julia_linear_mm.py" = ["E402", "F401"]
-
-
 [project.urls]
 Homepage = "https://github.com/lacclab/OneStopSurprisal"
 repository = "https://github.com/lacclab/OneStopSurprisal"
