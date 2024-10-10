@@ -58,6 +58,7 @@ only_dll_tests = FALSE
 # plot_and_density = TRUE
 plot_and_density = FALSE
 
+# ----------------- Analysis type + Model name -----------------
 # TODO: choose the analysis type and model name
 analysis_type_list = c("Consecutive_Repeated_reading", "Critical_Span", "Basic_Analysis",
                     "Different_Surprisal_Context", "Different_Surprisal_Context_zoom_in") # Different_Surprisal_Estimates

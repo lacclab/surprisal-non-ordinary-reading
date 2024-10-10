@@ -26,6 +26,7 @@ debug_on_mini = FALSE
 debug_path = here("src", "GAM", "tests", "generated_data.csv")
 
 # ------------------------------ Functions ------------------------------
+
 get_file_name <- function(path) {
     print(sprintf("!! data path: %s", path))
     file_name <- basename(path)
