@@ -1,8 +1,6 @@
-# to recognize Rmd file chane in the json file 
-# "files.associations": {
-#         "*.Rmd": "rmd",
-#     }
-shhh <- suppressPackageStartupMessages # It's a library, so shhh!
+# Conduct permutation tests for comparing DLLs (Reproduce Section 6.2 p vals)
+
+shhh <- suppressPackageStartupMessages
 shhh(library( mgcv ))
 shhh(library(dplyr))
 shhh(library(ggplot2))
@@ -18,7 +16,7 @@ shhh(library(plotrix))
 shhh(library(ggrepel))
 shhh(library(mgcv))
 library(tidyr)
-library(jmuOutlier) # For paired permutation tests
+library(jmuOutlier)
 library(purrr)
 library(CIPerm)
 
@@ -71,12 +69,10 @@ get_p_df <- function(
     dll_2 = get_dll_df_for_permu_test(raw_dll_2, x_condition_val, y_condition_val, linear=linear)
     print_n_rows(dll_1, dll_2, x_condition_val, y_condition_val)
     # conduct test
-    # p_val = perm.test(dll_1, dll_2, num.sim = 1000, exact=TRUE)$p.value
     n_sim = 1000
     dset_result = dset(dll_1, dll_2, nmc=n_sim)
     CIPerm_p_val = pval(dset_result, tail = c("Two"))
     if (is.na(CIPerm_p_val) || CIPerm_p_val == 0){
-        # p_val = perm.test(dll_1, dll_2, all.perms=TRUE, exact=TRUE)$p.value
         n_sim = 20000
         dset_result = dset(dll_1, dll_2, nmc=n_sim)
         CIPerm_p_val = pval(dset_result, tail = c("Two"))
@@ -121,10 +117,6 @@ run_dll_tests <- function(
     context_type_2_vals = compare_plan$context_type_2
     zoom_in_1_vals = compare_plan$zoom_in_1_vals
     zoom_in_2_vals = compare_plan$zoom_in_2_vals
-    # x_condition_vals = c("Gathering")
-    # y_condition_vals = c(1)
-    # context_name_1_vals = c("p")
-    # context_name_2_vals = c("p-p")
     for (i in seq_along(x_condition_vals)) {
         x_condition_val <- x_condition_vals[i]
         y_condition_val <- y_condition_vals[i]
@@ -161,15 +153,6 @@ run_dll_tests <- function(
     )
 }
 
-# params
-RE = F
-use_CV = T
-additive_model = T
-RT_col = "FirstPassGD"
-x_condition_name="has_preview_condition"
-y_condition_name="reread_condition"
-
-# Run
 run_context_dll_compare <- function(model_name, file_name) {
     cat("run_context_dll_compare \n")
     surp_prefix = paste0(model_name, "-Surprisal-Context-")
@@ -184,52 +167,18 @@ run_context_dll_compare <- function(model_name, file_name) {
     )
 }
 
+# params
+RE = F
+use_CV = T
+additive_model = T
+RT_col = "FirstPassGD"
+x_condition_name="has_preview_condition"
+y_condition_name="reread_condition"
+
 # Example
-# file_name = "et_20240505_with_all_surp20240624"
-# compare_plan = read.csv("/src/GAM/context_plots/stats_tests/GAM_dll_compare_plan.csv")
-# models_list = c("gpt2", "EleutherAI-pythia-70m")
-# models_list = c("EleutherAI-pythia-70m")
-
-# file_name = "et_20240505_large_models_context_cols_20240625"
-# compare_plan = read.csv("/src/GAM/context_plots/stats_tests/GAM_dll_compare_plan.csv")
-# models_list = c(
-#     'EleutherAI-gpt-j-6B', 
-#     'EleutherAI-pythia-2.8b',
-#     'EleutherAI-pythia-6.9b', 
-#     'facebook-opt-6.7b'
-# )
-
-# file_name = "et_20240505_large_models_part_2_context_cols_20240625"
-# compare_plan = read.csv("/src/GAM/context_plots/stats_tests/GAM_dll_compare_plan.csv")
-# models_list = c(
-#     'google-gemma-7b', 
-#     'meta-llama-Llama-2-13b-hf',
-#     'meta-llama-Llama-2-13b-chat-hf', 
-#     'meta-llama-Llama-2-70b-hf',
-#     'meta-llama-Llama-2-7b-chat-hf',
-#     'mistralai-Mistral-7B-Instruct-v0.3', 
-#     'mistralai-Mistral-7B-v0.1',
-#     'mistralai-Mistral-7B-v0.3', 
-# )
-
-# file_name = "et_20240505_large_models_part_3_context_cols_20240625" # nlp 11
-# compare_plan = read.csv("/src/GAM/context_plots/stats_tests/GAM_dll_compare_plan.csv")
-# models_list = c(
-#     'google-gemma-2-9b',
-#     'google-recurrentgemma-9b'
-# )
-
-# file_name = "et_20240505_EleutherAI-pythia-70m_article" # nlp 11
-# compare_plan = read.csv("/src/GAM/context_plots/stats_tests/GAM_dll_compare_plan_article.csv")
-# models_list = c(
-#     'EleutherAI-pythia-70m'
-# )
-
-# file_name = "et_20240505_gemma-2-9b_article" # nlp 16
-# compare_plan = read.csv("/src/GAM/context_plots/stats_tests/GAM_dll_compare_plan_article.csv")
-# models_list = c(
-#     'google-gemma-2-9b'
-# )
+file_name = "et_20240505_with_all_surp20240624"
+compare_plan = read.csv("/src/GAM/context_plots/stats_tests/GAM_dll_compare_plan.csv")
+models_list = c("EleutherAI-pythia-70m")
 
 for (model_name in models_list){
     cat("Context DLL Test| ", model_name, " --------- \n")
