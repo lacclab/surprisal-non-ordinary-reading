@@ -1,7 +1,11 @@
-# to recognize Rmd file chane in the json file 
-# "files.associations": {
-#         "*.Rmd": "rmd",
-#     }
+# -----------------------------------------------------------------------------
+# This script conducts context-based DLL (Delta Log-Likelihood) comparisons for 
+# various models using permutation tests. It loads DLL data, filters it based 
+# on conditions, and performs paired comparisons between different contexts to 
+# evaluate their statistical significance. Outputs include p-values and summary 
+# statistics saved as CSV files. 
+# -----------------------------------------------------------------------------
+
 shhh <- suppressPackageStartupMessages # It's a library, so shhh!
 shhh(library( mgcv ))
 shhh(library(dplyr))
@@ -21,7 +25,6 @@ library(tidyr)
 library(jmuOutlier) # For paired permutation tests
 library(purrr)
 library(CIPerm)
-
 theme_set(theme_bw())
 library(here)
 source(here("src", "GAM", "GAM_analysis_funcs.R"))
@@ -161,15 +164,6 @@ run_dll_tests <- function(
     )
 }
 
-# params
-RE = F
-use_CV = T
-additive_model = T
-RT_col = "FirstPassGD"
-x_condition_name="has_preview_condition"
-y_condition_name="reread_condition"
-
-# Run
 run_context_dll_compare <- function(model_name, file_name) {
     cat("run_context_dll_compare \n")
     surp_prefix = paste0(model_name, "-Surprisal-Context-")
@@ -184,52 +178,18 @@ run_context_dll_compare <- function(model_name, file_name) {
     )
 }
 
+# params
+RE = F
+use_CV = T
+additive_model = T
+RT_col = "FirstPassGD"
+x_condition_name="has_preview_condition"
+y_condition_name="reread_condition"
+
 # Example
-# file_name = "et_20240505_with_all_surp20240624"
-# compare_plan = read.csv("/src/GAM/context_plots/stats_tests/GAM_dll_compare_plan.csv")
-# models_list = c("gpt2", "EleutherAI-pythia-70m")
-# models_list = c("EleutherAI-pythia-70m")
-
-# file_name = "et_20240505_large_models_context_cols_20240625"
-# compare_plan = read.csv("/src/GAM/context_plots/stats_tests/GAM_dll_compare_plan.csv")
-# models_list = c(
-#     'EleutherAI-gpt-j-6B', 
-#     'EleutherAI-pythia-2.8b',
-#     'EleutherAI-pythia-6.9b', 
-#     'facebook-opt-6.7b'
-# )
-
-# file_name = "et_20240505_large_models_part_2_context_cols_20240625"
-# compare_plan = read.csv("/src/GAM/context_plots/stats_tests/GAM_dll_compare_plan.csv")
-# models_list = c(
-#     'google-gemma-7b', 
-#     'meta-llama-Llama-2-13b-hf',
-#     'meta-llama-Llama-2-13b-chat-hf', 
-#     'meta-llama-Llama-2-70b-hf',
-#     'meta-llama-Llama-2-7b-chat-hf',
-#     'mistralai-Mistral-7B-Instruct-v0.3', 
-#     'mistralai-Mistral-7B-v0.1',
-#     'mistralai-Mistral-7B-v0.3', 
-# )
-
-# file_name = "et_20240505_large_models_part_3_context_cols_20240625" # nlp 11
-# compare_plan = read.csv("/src/GAM/context_plots/stats_tests/GAM_dll_compare_plan.csv")
-# models_list = c(
-#     'google-gemma-2-9b',
-#     'google-recurrentgemma-9b'
-# )
-
-# file_name = "et_20240505_EleutherAI-pythia-70m_article" # nlp 11
-# compare_plan = read.csv("/src/GAM/context_plots/stats_tests/GAM_dll_compare_plan_article.csv")
-# models_list = c(
-#     'EleutherAI-pythia-70m'
-# )
-
-# file_name = "et_20240505_gemma-2-9b_article" # nlp 16
-# compare_plan = read.csv("/src/GAM/context_plots/stats_tests/GAM_dll_compare_plan_article.csv")
-# models_list = c(
-#     'google-gemma-2-9b'
-# )
+file_name = "et_20240505_with_all_surp20240624" # Define the file_name for results
+compare_plan = read.csv("/src/GAM/context_plots/stats_tests/GAM_dll_compare_plan.csv") # Load the comparison plan from a CSV file
+models_list = c("EleutherAI-pythia-70m") # Specify the list of models to test
 
 for (model_name in models_list){
     cat("Context DLL Test| ", model_name, " --------- \n")
