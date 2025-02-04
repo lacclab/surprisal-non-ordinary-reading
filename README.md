@@ -43,7 +43,7 @@
 If you use this repository, please consider citing the following work:
 
 ```bibtex
-@inproceedings{klein-etal-2024-effect,
+@inproceedings{gruteke-klein-etal-2024-effect,
     title = "The Effect of Surprisal on Reading Times in Information Seeking and Repeated Reading",
     author = "Gruteke Klein, Keren  and
       Meiri, Yoav  and
